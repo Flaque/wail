@@ -1,6 +1,6 @@
 # wail 😱
 
-Wail is a little go tool that listens for pipe input and then streams it to a websocket.
+Wail is a little go tool that listens for pipe input and then streams it to a websocket on port 80.
 
 It's useful for sharing the contents of a log to other places on the interwebs.
 
