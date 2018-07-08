@@ -1,0 +1,20 @@
+<html>
+
+<script>
+    const ws = new WebSocket("ws://localhost:80", "protocolOne");
+    ws.onmessage = function (event) {
+        console.log(event.data);
+    };
+</script>
+
+
+<pre>
+    <code>
+const ws = new WebSocket("ws://localhost:80", "protocolOne");
+ws.onmessage = function (event) {
+    console.log(event.data);
+};
+    </code>
+</pre>
+
+</html>
